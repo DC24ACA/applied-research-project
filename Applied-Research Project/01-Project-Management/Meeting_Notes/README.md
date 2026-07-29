@@ -8,7 +8,6 @@ Supervisor Contact Point (SCP) log forms are stored as the main record of each m
 
 Additional notes or supporting documentation may also be included where appropriate.
 
----
 
 ## Contents
 
@@ -16,7 +15,6 @@ Additional notes or supporting documentation may also be included where appropri
 - Additional meeting notes (if required)
 - Supporting documents relating to supervisor meetings
 
----
 
 ## Status
 
