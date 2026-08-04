@@ -9,7 +9,7 @@ The repository is maintained throughout the project to document the evolution of
 
 ## Proposed Project Title
 
-# Assessing the Feasibility of Autonomous Large Language Models for Endpoint Security Incident Investigation Using Wazuh and Sysmon Evidence**
+# Assessing the Feasibility of Autonomous Large Language Models for Endpoint Security Incident Investigation Using Wazuh and Sysmon Evidence
 
 **Note:** This is a working title and may be refined following the literature review and discussions with my project supervisor.
 
