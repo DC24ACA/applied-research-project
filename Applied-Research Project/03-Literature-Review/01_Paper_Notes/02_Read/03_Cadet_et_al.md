@@ -11,7 +11,7 @@ Status: Read
 ## Research Aim
 
 * Automate security incident analysis using LLMs.
-* Combine targeted log filtering with RAG.
+* Combine targeted log filtering with Retrieval-Augmented Generation (filtered then - LLM)
 * Reconstruct multi-stage attacks.
 * Compare different LLMs.
 * Reduce analyst investigation workload. 
@@ -26,10 +26,10 @@ Status: Read
 
 ## Key Findings
 
-* Claude Sonnet 4 achieved **94% recall**.
-* DeepSeek V3 achieved **89% recall**.
-* Llama 3.1 70B achieved **81% recall**.
-* Attack reconstruction reached **100% precision**.
+* Claude Sonnet 4 achieved --94% recall--.
+* DeepSeek V3 achieved --89% recall--.
+* Llama 3.1 70B achieved --81% recall--.
+* Attack reconstruction reached --100% precision--.
 * RAG was essential for effective analysis. 
 
 ## Strengths
@@ -51,7 +51,7 @@ Status: Read
 ## Relevance to My Project
 
 * Directly studies LLM incident investigation.
-* Shows raw logs need preprocessing.
+* Shows raw logs need preprocessing - unachieveable to send full data of raw logs.
 * Supports multi-source evidence analysis.
 * Provides useful evaluation metrics.
 * Strong comparison point for my approach.
@@ -60,7 +60,7 @@ Status: Read
 
 * Use controlled attack scenarios.
 * Establish independent ground truth.
-* Filter evidence before LLM analysis.
+* Filter evidence before LLM analysis??
 * Require structured incident reports.
 * Measure precision and recall.
 
