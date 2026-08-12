@@ -47,7 +47,7 @@ Status: Read
 
 ## Relevance to My Project
 
-* Strongly supports my choice of **Wazuh + Sysmon**.
+* Strongly supports my choice of Wazuh + Sysmon.
 * Demonstrates how Sysmon evidence can feed Wazuh.
 * Provides a practical architecture I can adapt.
 * Shows the gap between automated detection and investigation.
