@@ -67,7 +67,6 @@ Status: Read
 ## Research Gap
 
 * Alert interpretation is not full incident investigation.
-* Multi-source evidence correlation needs further study.
 * Autonomous investigation remains underexplored.
 * Evidence-supported conclusions require further testing.
 * Wazuh and Sysmon investigation is not evaluated here. 
