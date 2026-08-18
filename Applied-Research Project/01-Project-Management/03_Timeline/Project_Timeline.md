@@ -1,6 +1,6 @@
 # Project Timeline (Subject to change)
 
-## July (Completed / In Progress)
+## July (Completed)
 Project planning
 Finalise GitHub structure
 Create project folders
@@ -18,21 +18,21 @@ Meeting notes uploaded
 
 ### End of Month Checklist
 
-✓ GitHub repository created and organised.
+GitHub repository created and organised - **Done**
 
-✓ Project folder structure established.
+Project folder structure established - **Done**
 
-✓ README files added. (Need to add deatils to each README file)
+README files added - **Done**
 
-✓ Initial project idea drafted.
+Initial project idea drafted - **Done**
 
-✓ Initial Project Idea (IPI) submitted.
+Initial Project Idea (IPI) submitted - **Done**
 
-✓ First supervisor meeting completed.
+First supervisor meeting completed - **Done**
 
-✓ Supervisor feedback recorded.
+Supervisor feedback recorded - **Done**
 
-✓ Initial project timeline created.
+Initial project timeline created - **Done**
 
 --
 
@@ -75,23 +75,29 @@ GitHub updates
 
 ### End of Month Checklist
 
-☐ Conduct comprehensive literature searches using IEEE Xplore and other appropriate academic databases.
+Conduct comprehensive literature searches using IEEE Xplore and other appropriate academic databases
 
-☐ Read and summarise relevant research papers.
+Read and summarise relevant research papers
 
-☐ Record notes on previous work, tools, methodologies and findings.
+Record notes on previous work, tools, methodologies and findings
 
-☐ Identify strengths, weaknesses and limitations within the existing literature.
+Identify strengths, weaknesses and limitations within the existing literature
 
-☐ Identify potential research gaps.
+Identify potential research gaps
 
-☐ Refine the project title based on findings.
+Refine the project title based on findings - **Done**
 
-☐ Redraft the research aim and objectives.
+Redraft the research aim and objectives
 
-☐ Redraft the proposed methodology.
+Redraft the proposed methodology
 
-☐ Update GitHub with literature review progress and documentation.
+Update GitHub with literature review progress and documentation
+
+Create a literature Matrix for ease of access to themes across texts
+
+Submit SCP log 2
+
+Submit EEP 28th August Deadline
 
 --
 
