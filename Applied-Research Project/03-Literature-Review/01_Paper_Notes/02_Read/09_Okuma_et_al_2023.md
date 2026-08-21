@@ -2,7 +2,7 @@
 
 ## Bibliographic Information
 
-Citation: Okuma, M., Watarai, K., Okada, S. and Mitsunaga, T. (2023). Automated Mapping Method for Sysmon Logs to ATT&CK Techniques by Leveraging Atomic Red Team. 2023 6th International Conference on Signal Processing and Information Security (ICSPIS). DOI: 10.1109/ICSPIS60075.2023.10343783. 
+Okuma, M., Watarai, K., Okada, S. and Mitsunaga, T. (2023). Automated mapping method for Sysmon logs to ATT&CK techniques by leveraging Atomic Red Team. 2023 6th International Conference on Signal Processing and Information Security (ICSPIS), pp. 104–109. doi: 10.1109/ICSPIS60075.2023.10343783.
 
 Core Literature
 

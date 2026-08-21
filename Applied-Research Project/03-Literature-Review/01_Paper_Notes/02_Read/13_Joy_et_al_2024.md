@@ -2,7 +2,7 @@
 
 ## Bibliographic Information
 
-Citation: Joy, A., Chandane, M. and Kazi, F. (2024). An Investigative Evaluation of Open Source Intrusion Detection Systems for Operational Technology Networks Using MITRE ICS Attack Simulation on a Thermal Power Plant Test Bed. 2024 IEEE 21st India Council International Conference (INDICON). DOI: 10.1109/INDICON63790.2024.10958514.
+Joy, A., Chandane, M. and Kazi, F. (2024). An investigative evaluation of open source intrusion detection systems for operational technology networks using MITRE ICS attack simulation on a thermal power plant test bed. 2024 IEEE 21st India Council International Conference (INDICON). doi: 10.1109/INDICON63790.2024.10958514.
 
 Supporting Literature
 

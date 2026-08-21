@@ -2,7 +2,7 @@
 
 ## Bibliographic Information
 
-Citation: Peter, C. et al. (2025). AI-Based Behavior Analytics for Centralized SIEM with Edge Processing. IEEE ROEDUNET 2025. DOI: 10.1109/ROEDUNET68395.2025.11208445.
+Peter, C., Dinu, V.I., Balan, T. and Chis, A. (2025). AI-based behavior analytics for centralized SIEM with edge processing. 2025 24th RoEduNet Conference: Networking in Education and Research (RoEduNet). doi: 10.1109/RoEduNet68395.2025.11208445.
 
 Supporting Literature
 

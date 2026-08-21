@@ -2,7 +2,7 @@
 
 ## Bibliographic Information
 
-Citation: Schärmer, A. S. (2026). *LLM-Based IDS Alert Interpretation for Cyber Incident Analysis and Triage*. Diploma Thesis, TU Wien.
+Schärmer, A.S. (2026). LLM-Based IDS Alert Interpretation for Cyber Incident Analysis and Triage. Diploma Thesis, Technische Universität Wien. doi: 10.34726/hss.2026.131750.
 
 Priority: Core Literature
 

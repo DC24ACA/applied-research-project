@@ -3,7 +3,7 @@
 
 ## Bibliographic Information
 
-Citation: Bahniuk, N., Kondius, I., Linchuk, O., Melnyk, K., Bortnyk, K. and Kondius, K. (2023). Threats Detection and Analysis Based on SYSMON Tool. 13th IEEE International Conference on Dependable Systems, Services and Technologies (DESSERT). DOI: 10.1109/DESSERT61349.2023.10416443.
+Bahniuk, N., Kondius, I., Linchuk, O., Melnyk, K., Bortnyk, K. and Kondius, K. (2023). Threats detection and analysis based on SYSMON tool. 13th IEEE International Conference on Dependable Systems, Services and Technologies (DESSERT). doi: 10.1109/DESSERT61349.2023.10416443
 
 Supporting Literature
 

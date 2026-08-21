@@ -3,7 +3,7 @@
 
 ## Bibliographic Information
 
-Citation: Tarace, D., Lai, P., Dang, K. and Tatar, U. (2025). *AI-Powered Assessment of Wazuh for Obfuscated Threat Detection*. 2025 Systems and Information Engineering Design Symposium (SIEDS). DOI: 10.1109/SIEDS65500.2025.11021218.
+Tarace, D., Lai, P., Dang, K. and Tatar, U. (2025). AI-powered assessment of Wazuh for obfuscated threat detection. 2025 Systems and Information Engineering Design Symposium (SIEDS). doi: 10.1109/SIEDS65500.2025.11021218.
 
 Core Literature
 

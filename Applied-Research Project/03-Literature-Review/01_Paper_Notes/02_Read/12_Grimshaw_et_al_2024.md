@@ -2,7 +2,7 @@
 
 ## Bibliographic Information
 
-Citation: Grimshaw, C., Lachine, B., Perkins, T. and Coote, E. (2024). Link-based Anomaly Detection with Sysmon and Graph Neural Networks. 3rd IEEE International Conference on AI in Cybersecurity (ICAIC). DOI: 10.1109/ICAIC60265.2024.10433846.
+Grimshaw, C., Lachine, B., Perkins, T. and Coote, E. (2024). Link-based anomaly detection with Sysmon and graph neural networks. 2024 IEEE 3rd International Conference on AI in Cybersecurity (ICAIC). doi: 10.1109/ICAIC60265.2024.10433846
 
 Supporting Literature
 

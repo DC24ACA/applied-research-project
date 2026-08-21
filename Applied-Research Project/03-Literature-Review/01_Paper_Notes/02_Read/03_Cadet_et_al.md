@@ -2,7 +2,7 @@
 
 ## Bibliographic Information
 
-Citation: Cadet, X. et al. (2026). *Retrieval-Augmented LLMs for Security Incident Analysis*.
+Cadet, X., Singh, A.V., Mamania, H., Koh, E., Fitts, A., Van Bruggen, D., Boboila, S., Chin, P. and Oprea, A. (2026). Retrieval-augmented LLMs for security incident analysis. Proceedings of the ACM Conference on AI and Agentic Systems (CAIS 2026), pp. 103–123. doi: 10.1145/3786335.3813136.
 
 Priority: Core Literature
 

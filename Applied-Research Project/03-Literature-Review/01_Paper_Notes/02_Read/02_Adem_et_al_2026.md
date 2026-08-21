@@ -2,7 +2,7 @@
 
 ## Bibliographic Information
 
-Citation: Adem, A. İ., Bakal, M. F. and Sezen, A. (2026). AI-Driven Security Operations Centers: A Research Landscape Analysis. 2026 4th Cognitive Models and Artificial Intelligence Conference (AICCONF). DOI: 10.1109/AICCONF69182.2026.11600709.
+Adem, A. İ., Bakal, M. F. and Sezen, A. (2026). AI-driven security operations centers: A research landscape analysis. *2026 4th Cognitive Models and Artificial Intelligence Conference (AICCONF).* doi: 10.1109/AICCONF69182.2026.11600709.
 
 Priority: Core Literature
 

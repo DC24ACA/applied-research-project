@@ -2,7 +2,7 @@
 
 ## Bibliographic Information
 
-Citation: Janardhana, D. R., Tejas, M., Rayala, V. and Kanchan, J. (2025). Adaptive Security Operations Center. 2025 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT). DOI: 10.1109/CONECCT65861.2025.11306779.
+Janardhana, D.R., Tejas, M., Rayala, V. and Kanchan, J. (2025). Adaptive security operations center. 2025 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT). doi: 10.1109/CONECCT65861.2025.11306779.
 
 Priority: Core Literature
 

@@ -2,7 +2,7 @@
 
 ## Bibliographic Information
 
-Citation: Galadima, H. S., Doherty, C. and Brennan, R. (2024). Towards LLM-based Synthetic Dataset Generation of Cyber Incident Response Process Logs. 2024 Cyber Research Conference - Ireland (Cyber-RCI). DOI: 10.1109/Cyber-RCI60769.2024.10939563.
+Galadima, H.S., Doherty, C. and Brennan, R. (2024). Towards LLM-based synthetic dataset generation of cyber incident response process logs. 2024 Cyber Research Conference – Ireland (Cyber-RCI). doi: 10.1109/Cyber-RCI60769.2024.10939563.
 
 Core Literature
 

@@ -2,7 +2,7 @@
 
 ## Bibliographic Information
 
-Citation: Bansal, S., Bhariya, O. P., Sharma, D., Battu, D., Shamila, M. and Monika, S. (2025). Managing the Human-AI Collaboration in Cloud Security Operations Centers (SOCs). 2025 IEEE International Conference on Innovate for Humanitarian: Tech Solutions for Global Challenge (ICIH). DOI: 10.1109/ICIH67754.2025.11608672.
+Bansal, S., Bhariya, O.P., Sharma, D., Battu, D., Shamila, M. and Monika, S. (2025). Managing the human-AI collaboration in cloud security operations centers (SOCs). 2025 IEEE International Conference on Innovate for Humanitarian: Tech Solutions for Global Challenge (ICIH). doi: 10.1109/ICIH67754.2025.11608672.
 
 Supporting Literature
 
