@@ -1,126 +1,180 @@
-# Project Timeline (Subject to change)
+**# Project Timeline (Subject to change)**
 
-## July (Completed)
+**## July (Completed)**
+
 Project planning
+
 Finalise GitHub structure
+
 Create project folders
+
 Meet supervisor
+
 Produce IPI
+
 Produce SCP log
+
 Begin searching literature
 
 GitHub commits
 
 Repository created
+
 Folder structure created
+
 README files added
+
 Meeting notes uploaded
 
-### End of Month Checklist
+**### End of Month Checklist**
 
-GitHub repository created and organised - **Done**
+- GitHub repository created and organised - **Done**
 
-Project folder structure established - **Done**
+- Project folder structure established - **Done**
 
-README files added - **Done**
+- README files added - **Done**
 
-Initial project idea drafted - **Done**
+- Initial project idea drafted - **Done**
 
-Initial Project Idea (IPI) submitted - **Done**
+- Initial Project Idea (IPI) submitted - **Done**
 
-First supervisor meeting completed - **Done**
+- First supervisor meeting completed - **Done**
 
-Supervisor feedback recorded - **Done**
+- Supervisor feedback recorded - **Done**
 
-Initial project timeline created - **Done**
+- Initial project timeline created - **Done**
 
 --
 
-## August
+**## August**
 
-### Literature Review
+**### Literature Review**
 
 Search IEEE Xplore for papers covering:
 
 Security Operations Centres
+
 Wazuh
+
 Sysmon
+
 Threat Detection
+
 AI in Cyber Security
+
 Large Language Models
-ChatGPT
+
+Autonomous Security Investigation
+
 Incident Response
+
 SIEM
+
 Alert triage
 
+Incident reconstruction
+
+Ground truth evaluation
+
 Read approximately 20–30 papers
+
 
 For each paper, to record:
 
 Research aim
+
 Tools
+
 Dataset
+
 Findings
+
 Weaknesses
+
 Future work
+
 Research gap
 
-### Deliverables
+**### Deliverables**
+
 Paper summaries
-Annotated bibliography
+
+Literature matrix
+
 Refined dissertation title
+
 Research questions
+
 Methodology draft
+
 GitHub updates
 
-### End of Month Checklist
+**### End of Month Checklist**
 
-Conduct comprehensive literature searches using IEEE Xplore and other appropriate academic databases
+- Conduct comprehensive literature searches using IEEE Xplore and other appropriate academic databases
 
-Read and summarise relevant research papers
+- Read and summarise relevant research papers
 
-Record notes on previous work, tools, methodologies and findings
+- Record notes on previous work, tools, methodologies and findings
 
-Identify strengths, weaknesses and limitations within the existing literature
+- Identify strengths, weaknesses and limitations within the existing literature 
 
-Identify potential research gaps
+- Identify potential research gaps - **Done**
 
-Refine the project title based on findings - **Done**
+- Refine the project title based on findings - **Done**
 
-Redraft the research aim and objectives
+- Redraft the research aim and objectives - **Done**
 
-Redraft the proposed methodology
+- Redraft the proposed methodology - **Done**
 
-Update GitHub with literature review progress and documentation
+- Update GitHub with literature review progress and documentation
 
-Create a literature Matrix for ease of access to themes across texts
+- Create a literature Matrix for ease of access to themes across texts
 
-Submit SCP log 2
+- Confirm proposed Windows APT dataset
 
-Submit EEP 28th August Deadline
+- Confirm ethics requirements - **Done**
+
+- Submit SCP log 2
+
+- Submit EPP: 28th August Deadline
 
 --
 
-## September
+**## September**
 
 Build a Virtual Lab Environment
 
-### Install
+**### Install**
 
 VirtualBox or VMware
+
 Windows VM
+
 Kali Linux
+
 Wazuh Server
+
 Wazuh Agent
+
 Sysmon
+
 Sysmon configuration
+
 Windows Event Forwarding (if required)
+
+Review Windows APT dataset
 
 Verify:
 
 Events appear inside Wazuh
+
 Sysmon logging works
+
 Alerts generated
+
+Windows APT evidence can be used for the investigation
+
 Deliverables
 
 Screenshots
@@ -131,154 +185,200 @@ Architecture diagram
 
 Lab documentation
 
-### End of Month Checklist
+Dataset notes
 
-☐ Finalise the research methodology.
+**### End of Month Checklist**
 
-☐ Define the evaluation framework.
+- Finalise the research methodology.
 
-☐ Select and justify the tools to be used.
+- Define the evaluation framework.
 
-☐ Design the experimental environment.
+- Select and justify the tools to be used.
 
-☐ Configure the required software and systems.
+- Design the experimental environment.
 
-☐ Verify that the environment is functioning correctly.
+- Configure the required software and systems.
 
-☐ Record installation and configuration steps.
+- Verify that the environment is functioning correctly.
 
-☐ Update GitHub with documentation and progress.
+- Review and validate the Windows APT dataset.
+
+- Record installation and configuration steps.
+
+- Update GitHub with documentation and progress.
 
 --
 
-## October
+**## October**
 
-Create attack scenarios:
+Select attack scenarios from the Windows APT dataset:
 
 PowerShell execution
-Credential dumping simulation
+
+Credential dumping
+
 Brute force login
+
 Suspicious scheduled task
-Malware simulation
+
+Malware activity
+
 Persistence techniques
 
-Collect generated logs for each attack such as:
+Prepare relevant evidence for each attack such as:
 
 Wazuh alerts
+
 Sysmon logs
+
 Windows Event Logs
 
-### Document
+**### Document**
 
-Attack steps
-Generated logs
+Known attack steps
+
+Sequence of events
+
+Relevant evidence
+
 Expected behaviour
 
-### End of Month Checklist
+MITRE ATT&CK techniques where appropriate
 
-☐ Design experimental scenarios.
+Expected investigation findings
 
-☐ Execute experiments.
+Establish independent ground truth for each selected scenario before the LLM investigation takes place.
 
-☐ Collect and organise datasets.
+Finalise the investigation instructions and consistent report structure to be used by each LLM.
 
-☐ Validate collected data.
+**### End of Month Checklist**
 
-☐ Record observations throughout testing.
+- Select final experimental scenarios.
 
-☐ Document any issues encountered.
+- Collect and organise relevant security evidence.
 
-☐ Refine the experimental process if required.
+- Validate collected evidence.
 
-☐ Upload documentation and progress to GitHub
+- Establish independent ground truth for each selected scenario.
+
+- Record the known attack actions, sequence and expected findings.
+
+- Map relevant activity to MITRE ATT&CK where appropriate.
+
+- Finalise the LLM investigation instructions and report structure.
+
+- Document any issues encountered.
+
+- Refine the experimental process if required.
+
+- Upload documentation and progress to GitHub
 
 --
 
-## November
+**## November**
 
-Perform two investigations.
+Perform autonomous LLM investigations.
 
-### Traditional investigation
+**### Autonomous investigation**
 
-Without AI.
-Investigate using:
+Use selected LLMs.
 
-Wazuh
-Event Viewer
-Sysmon
-Manual log analysis
+Feed each LLM equivalent:
 
-#### Record
+- Wazuh alerts
 
-- Investigation time
-
-- Accuracy
-
-- Confidence
-
-- False positives
-
-- False negatives
-
-### AI-assisted investigation
-
-Use
-
-One LLM
-
-Feed:
-
-- Alerts
 - Sysmon logs
-- Wazuh events
 
-Ask AI to:
+- Windows Event Logs where required
 
-- Explain
+Use:
 
-- Summarise
+- Same investigation instructions
 
-- Identify attack
+- Same report structure
 
- - Recommend response
+Ask each LLM to:
 
- - Map to MITRE ATT&CK
+- Identify what happened
 
-#### Compare
+- Identify malicious activity
+
+- Reconstruct the sequence of events
+
+- Support conclusions using the supplied evidence
+
+- Map relevant activity to MITRE ATT&CK
+
+- Produce a structured investigation report
+
+The LLM will complete the investigation without human guidance or correction once the evidence and instructions have been provided.
+
+**#### Record**
+
+- Investigation findings
+
+- Correct findings
+
+- Missed activity
+
+- Incorrect conclusions
+
+- Unsupported or hallucinated claims
+
+- Evidence referenced by the LLM
+
+**### Ground truth comparison**
+
+Compare the LLM-generated investigation reports against the independently established ground truth.
+
+**#### Compare**
 
 Time
 
 Accuracy
 
-Explanation quality
-
 Completeness
 
-False positives
+Evidence support
 
-### End of Month Checklist
+Incorrect conclusions
 
-☐ Analyse collected data.
+Missed activity
 
-☐ Compare results using the defined evaluation framework.
+Unsupported or hallucinated claims
 
-☐ Create graphs, tables and visualisations.
+**### End of Month Checklist**
 
-☐ Interpret findings.
+- Complete autonomous LLM investigations for each selected scenario.
 
-☐ Compare findings with previous research.
+- Ensure each LLM receives equivalent evidence and investigation instructions.
 
-☐ Identify strengths and limitations of the proposed approach.
+- Save and organise all generated investigation reports.
 
-☐ Record any unexpected findings.
+- Compare outputs using the defined evaluation framework.
 
-☐ Update GitHub with analysis documentation.
+- Record correct findings, missed activity and incorrect conclusions.
 
-## December
+- Record any unsupported or hallucinated claims.
 
-Analyse and compare the manual and AI-assisted investigation results.
-Evaluate the effectiveness of AI assistance against the defined evaluation criteria.
-Discuss the strengths and limitations of both approaches.
+- Record any unexpected findings.
+
+- Update GitHub with analysis documentation.
+
+**## December**
+
+Analyse and compare the LLM-generated investigation reports against the independently established ground truth.
+
+Evaluate the effectiveness of autonomous LLM investigation against the defined evaluation criteria.
+
+Compare results across the selected LLMs and attack scenarios.
+
+Discuss the strengths and limitations of autonomous LLM investigation.
+
 Relate the findings to the existing literature.
+
+Identify where human verification may still be required.
+
 Identify the implications for Security Operations Centres and future research.
+
 Complete the Results, Discussion and Conclusion chapters.
