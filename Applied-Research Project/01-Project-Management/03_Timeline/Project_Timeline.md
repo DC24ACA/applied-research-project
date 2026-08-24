@@ -1,6 +1,6 @@
-**# Project Timeline (Subject to change)**
+# Project Timeline (Subject to change)
 
-**## July (Completed)**
+## July (Completed)
 
 Project planning
 
@@ -26,7 +26,7 @@ README files added
 
 Meeting notes uploaded
 
-**### End of Month Checklist**
+### End of Month Checklist
 
 - GitHub repository created and organised - **Done**
 
@@ -46,9 +46,9 @@ Meeting notes uploaded
 
 --
 
-**## August**
+## August
 
-**### Literature Review**
+### Literature Review
 
 Search IEEE Xplore for papers covering:
 
@@ -95,7 +95,7 @@ Future work
 
 Research gap
 
-**### Deliverables**
+### Deliverables
 
 Paper summaries
 
@@ -109,7 +109,7 @@ Methodology draft
 
 GitHub updates
 
-**### End of Month Checklist**
+### End of Month Checklist
 
 - Conduct comprehensive literature searches using IEEE Xplore and other appropriate academic databases
 
@@ -141,13 +141,13 @@ GitHub updates
 
 --
 
-**## September**
+## September
 
 Build a Virtual Lab Environment
 
-**### Install**
+### Install
 
-VirtualBox or VMware
+VMware
 
 Windows VM
 
@@ -187,7 +187,7 @@ Lab documentation
 
 Dataset notes
 
-**### End of Month Checklist**
+### End of Month Checklist
 
 - Finalise the research methodology.
 
@@ -209,7 +209,7 @@ Dataset notes
 
 --
 
-**## October**
+## October
 
 Select attack scenarios from the Windows APT dataset:
 
@@ -233,7 +233,7 @@ Sysmon logs
 
 Windows Event Logs
 
-**### Document**
+### Document
 
 Known attack steps
 
@@ -251,7 +251,7 @@ Establish independent ground truth for each selected scenario before the LLM inv
 
 Finalise the investigation instructions and consistent report structure to be used by each LLM.
 
-**### End of Month Checklist**
+### End of Month Checklist
 
 - Select final experimental scenarios.
 
@@ -275,11 +275,11 @@ Finalise the investigation instructions and consistent report structure to be us
 
 --
 
-**## November**
+## November
 
 Perform autonomous LLM investigations.
 
-**### Autonomous investigation**
+### Autonomous investigation
 
 Use selected LLMs.
 
@@ -313,7 +313,7 @@ Ask each LLM to:
 
 The LLM will complete the investigation without human guidance or correction once the evidence and instructions have been provided.
 
-**#### Record**
+#### Record
 
 - Investigation findings
 
@@ -327,11 +327,11 @@ The LLM will complete the investigation without human guidance or correction onc
 
 - Evidence referenced by the LLM
 
-**### Ground truth comparison**
+### Ground truth comparison
 
 Compare the LLM-generated investigation reports against the independently established ground truth.
 
-**#### Compare**
+#### Compare
 
 Time
 
@@ -347,7 +347,7 @@ Missed activity
 
 Unsupported or hallucinated claims
 
-**### End of Month Checklist**
+### End of Month Checklist
 
 - Complete autonomous LLM investigations for each selected scenario.
 
@@ -365,7 +365,7 @@ Unsupported or hallucinated claims
 
 - Update GitHub with analysis documentation.
 
-**## December**
+## December
 
 Analyse and compare the LLM-generated investigation reports against the independently established ground truth.
 
