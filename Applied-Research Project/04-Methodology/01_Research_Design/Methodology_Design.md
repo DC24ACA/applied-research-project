@@ -1,17 +1,11 @@
-Kramer et al. (2025)
+# Methodology Design
+1. Overview 
 
-Give each LLM identical evidence.
-Use standardised prompts.
-Measure factual errors and omissions.
+The project will use an experimental methodology to evaluate whether selected Large Language Models (LLMs) can autonomously investigate security incidents using Wazuh alerts and Sysmon endpoint evidence.
 
-Adem et al. (2026)
+Two sources of security evidence will be used:
 
-Evaluate the level of LLM autonomy.
-Include reliability and hallucination measures.
+1. Self-generated controlled attack scenarios within an isolated Windows environment. (Atomic Red Team)
+2. More complex attack scenarios selected from the Windows APT dataset.
 
-Cadet et al. (2026)
-
-Avoid feeding unrestricted raw logs directly to the LLM.
-Use predefined and reproducible evidence filtering.
-Give each LLM identical evidence packs.
-Preserve complete raw logs separately for ground-truth validation.
+For each scenario, the LLMs will receive the same prepared evidence, investigation instructions and report structure. Their investigations will then be compared against independently established ground truth.
