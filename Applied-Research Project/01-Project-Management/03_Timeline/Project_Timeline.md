@@ -12,17 +12,17 @@
 
 ## August – Literature Review & Project Refinement
 
-* Conduct literature searches using IEEE Xplore and other academic databases.
-* Read and summarise approximately 20–30 relevant papers.
+* Conduct literature searches using IEEE Xplore and other academic databases. **DONE**
+* Read and summarise approximately 20–30 relevant papers. **DONE**
 * Create literature summaries and literature matrix.
 * Identify research gaps and limitations in existing work. **DONE**
 * Refine project title, aim, objectives and research questions. **DONE**
 * Draft methodology and evaluation approach. **DONE**
-* Confirm Windows APT dataset.
+* Confirm Windows APT dataset. **DONE**
 * Confirm ethics requirements. **DONE**
-* Update GitHub documentation.
-* Submit SCP Log 2.
-* **Submit EPP – 28 August 2026.**
+* Update GitHub documentation. **DONE**
+* Submit SCP Log 2. **DONE**
+* Submit EPP – 28 August 2026. **DONE**
 
 
 ## September – Experimental Environment
