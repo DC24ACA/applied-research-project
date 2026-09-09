@@ -1,11 +1,9 @@
 # Methodology Design
-1. Overview 
 
-The project will use an experimental methodology to evaluate whether selected Large Language Models (LLMs) can autonomously investigate security incidents using Wazuh alerts and Sysmon endpoint evidence.
+## Research Approach
 
-Two sources of security evidence will be used:
+This project will take an experimental comparative evaluation approach. It will examine the security incident investigations produced by multiple general-purpose LLMs and one cybersecurity-focused LLM using identical security incidents and Wazuh and Sysmon telemetry. Each model will receive equivalent evidence, identical investigation instructions and the same prompt structure to maintain consistency across the evaluation. The general-purpose LLMs will be selected using a comparison table to ensure that the models are as comparable as possible in terms of capability, subscription tier and available reasoning resources. The investigation reports produced by each LLM will then be compared against an independently established ground truth using a consistent scoring framework based on accuracy, completeness and evidence support.
 
-1. Self-generated controlled attack scenarios within an isolated Windows environment. (Atomic Red Team)
-2. More complex attack scenarios selected from the Windows APT dataset.
+## Experimental Design
 
-For each scenario, the LLMs will receive the same prepared evidence, investigation instructions and report structure. Their investigations will then be compared against independently established ground truth.
+VMware Workstation Pro will be used as the base virtualisation platform, with Ubuntu and Windows virtual machines forming the isolated lab environment for this project. The Windows VM will act as the monitored endpoint, with Sysmon recording detailed endpoint activity. Wazuh will be configured on the Ubuntu VM to collect, process and store security evidence from the Windows endpoint. Atomic Red Team will be used to generate controlled and reproducible attack scenarios on the Windows VM, with ground truth established before each investigation. The Windows APT dataset will provide more complex attack scenarios, with its manifest files used to support the creation of an independent ground truth before evidence is provided to the LLMs. Each LLM will receive identical evidence and prompts to maintain consistency and transparency across the experiment.

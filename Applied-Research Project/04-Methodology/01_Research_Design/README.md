@@ -1,1 +1,1 @@
-
+This folder contains the overall research design used to evaluate autonomous large language models for security incident investigation. It will convery the experimental approach, the use of controlled and dataset-based attack scenarios and the measures used to maintain consistency across LLM investigations.
