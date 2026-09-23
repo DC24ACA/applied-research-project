@@ -27,11 +27,11 @@
 
 ## September – Experimental Environment
 
-* Build and configure the virtual lab.
-* Install/configure Windows VM, Ubuntu, Wazuh and Sysmon.
-* Configure required logging and security monitoring.
+* Build and configure the virtual lab. **DONE**
+* Install/configure Windows VM, Ubuntu, Wazuh and Sysmon. **DONE**
+* Configure required logging and security monitoring. **DONE**
 * Review and validate the Windows APT dataset.
-* Confirm that logs, alerts and Sysmon events can be analysed correctly.
+* Confirm that logs, alerts and Sysmon events can be analysed correctly. **DONE**
 * Finalise methodology and evaluation framework.
 * Finalise LLM prompt is detailed and provide enough evidence
 * Develop a ground truth for each attack scennario and a corresponding scoring framework. 
