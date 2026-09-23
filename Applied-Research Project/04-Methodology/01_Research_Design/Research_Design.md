@@ -6,7 +6,7 @@ This project will take an experimental comparative evaluation approach. It will 
 
 ## Experimental Design
 
-VMware Workstation Pro will be used as the base virtualisation platform, with Ubuntu and Windows virtual machines forming the isolated lab environment for this project. The Windows VM will act as the monitored endpoint, with Sysmon recording detailed endpoint activity. Wazuh will be configured on the Ubuntu VM to collect and store security evidence from the Windows endpoint. Atomic Red Team will be used to generate controlled and reproducible attack scenarios on the Windows VM, with ground truth established before each investigation. The Windows APT dataset will provide more complex attack scenarios, with its manifest files used to support the creation of an independent ground truth before evidence is provided to the LLMs. Each LLM will receive identical evidence and prompts to maintain consistency and transparency across the experiment.
+This project will use a controlled experimental design in which multiple LLMs investigate the same security incidents under consistent conditions. Each attack scenario will have an independently established ground truth before being presented to the models. Every LLM will receive the same evidence, investigation prompt and required report structure. The resulting investigation reports will then be compared against the ground truth using the same evaluation framework. This design allows differences in model performance to be compared across accuracy, completeness and evidence support.
 
 ## Controlled Variables
 
