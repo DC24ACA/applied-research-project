@@ -1,15 +1,18 @@
-* Adem – human-in-the-loop and human-on-the-loop approaches remain dominant so fully autonomous SOC use still limited.
-* Kramer – value of human involvement. LLMs omitted key findings and produced inaccuracies. Analyst-assisted use produced better results.
-* Eilertsen – movement towards agentic workflows where LLMs take greater responsibility during investigations.
-* Balogh – analyst experience can influence how effectively LLM outputs are interpreted and corrected.
-* Schaermer – questions human-vs-LLM comparisons when analyst experience and qualifications are not clearly reported.
-* Bansal – Human–AI collaboration. Tasks can be divided between LLMs and analysts depending on how complex they are and confidence.
-* Janardhana – SOC monitoring and detection can be automate but human overview remains important.
-* Cadet – LLMs can perform substantial incident reconstruction from multiple evidence sources but it doesn't not prove full autonomy.
+* current literature shows that LLMs are increasingly being used to support SOC monitoring, alert analysis and incident investigation.
 
-* Comparison – literature provides stronger evidence for LLM-assisted investigation than fully autonomous investigation.
-* Analysis – human correction improves results but may hide weaknesses in the LLM’s independent capability.
+* Kramer, Cadet and Eilertsen show that LLMs can contribute to increasingly complex investigative tasks.
+* Adem – human-in-the-loop and human-on-the-loop approaches remain more common than fully autonomous investigation.
+* Kramer – analyst-assisted use can improve investigation quality, but this makes the independent capability of the LLM harder to isolate.
+* Balogh and Schaermer – human-versus-LLM comparisons can be affected by differences in analyst experience, qualifications and technical expertise.
 
-* In brief: successful Human–LLM collaboration should not automatically be considered evidence that the LLM could achieve the same result independently.
+* existing research provides stronger evidence for LLM-assisted investigation than for fully autonomous end-to-end security investigation.
+* there is limited evidence showing how well an LLM can independently analyse raw security evidence, reconstruct an incident and produce reliable conclusions without human correction.
+* current studies also vary in the evidence sources, prompts, levels of human involvement and evaluation methods used, making direct comparison difficult.
+* few studies evaluate multiple LLMs under identical experimental conditions using the same incident evidence and investigation instructions.
+* there is also a need for clearer evaluation of whether LLM conclusions are accurate, complete and directly supported by the evidence provided.
 
-* Link to project – removing human guidance allows the actual autonomous investigative capability of each LLM to be assessed more clearly.
+* this project addresses the gap by testing multiple LLMs using identical Wazuh alerts and Sysmon telemetry under controlled conditions.
+* each model will complete the investigation without human guidance, correction or additional assistance once the evidence and instructions are provided.
+* performance will be compared against independent ground truth using accuracy, completeness and evidence support.
+
+* the project therefore aims to assess not whether LLMs can assist with security investigation but whether they can conduct a reliable investigation autonomously.

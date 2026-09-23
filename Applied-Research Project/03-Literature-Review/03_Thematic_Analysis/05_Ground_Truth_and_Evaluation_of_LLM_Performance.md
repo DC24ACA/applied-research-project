@@ -1,15 +1,18 @@
-* Adem – human-in-the-loop and human-on-the-loop approaches remain dominant so fully autonomous SOC use still limited.
-* Kramer – value of human involvement. LLMs omitted key findings and produced inaccuracies. Analyst-assisted use produced better results.
-* Eilertsen – movement towards agentic workflows where LLMs take greater responsibility during investigations.
-* Balogh – analyst experience can influence how effectively LLM outputs are interpreted and corrected.
-* Schaermer – questions human-vs-LLM comparisons when analyst experience and qualifications are not clearly reported.
-* Bansal – Human–AI collaboration. Tasks can be divided between LLMs and analysts depending on how complex they are and confidence.
-* Janardhana – SOC monitoring and detection can be automate but human overview remains important.
-* Cadet – LLMs can perform substantial incident reconstruction from multiple evidence sources but it doesn't not prove full autonomy.
+* Balogh – analyst expertise can affect human-versus-LLM comparisons and may introduce an additional variable when evaluating performance of the LLM.
+* Schaermer – questions studies that compare LLMs with analysts without clearly reporting analyst experience or qualifications.
+* Schaermer – supports the use of detailed ground truth to compare LLM interpretations directly with what actually occurred during an incident.
+* Galadima – highlights the importance of evaluating AI-generated security analysis using measures such as accuracy, completeness and consistency.
+* Kramer – demonstrates that LLM outputs can contain inaccuracies and omissions. This shows why investigation quality needs to be assessed against known evidence rather than accepted at face value.
+* Cadet – incident reconstruction requires conclusions to remain connected to the available evidence, supporting evidence-based evaluation.
 
-* Comparison – literature provides stronger evidence for LLM-assisted investigation than fully autonomous investigation.
-* Analysis – human correction improves results but may hide weaknesses in the LLM’s independent capability.
+* Ground truth – provides a known version of the incident against which each LLM investigation can be compared.
+* Comparison – using the same ground truth for each model provides a more consistent benchmark than comparing models against different human analysts.
+* Accuracy – measures whether the conclusions made by the LLM correctly match the known events in the incident.
+* Completeness – measures how much of the known incident activity the LLM successfully identifies.
+* Evidence support – measures whether the LLM’s conclusions can be linked back to the logs, alerts or telemetry provided.
 
-* In brief: successful Human–LLM collaboration should not automatically be considered evidence that the LLM could achieve the same result independently.
+* Analysis – separating accuracy, completeness and evidence-supported claims helps distinguish between an investigation that identifies many events and one that identifies them correctly.
 
-* Link to project – removing human guidance allows the actual autonomous investigative capability of each LLM to be assessed more clearly.
+* In brief: ground truth provides a more controlled way of comparing LLM performance because the benchmark remains the same for every model and scenario.
+
+* Link to project – each LLM will receive identical evidence, instructions and report structure and its response will be evaluated against the same independently created ground truth.
