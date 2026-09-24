@@ -18,7 +18,7 @@ Each model will receive the same prepared evidence for a given attack scenario. 
 
 ## Autonomous Investigation
 
-For this project, an autonomous investigation means that once the evidence and investigation instructions have been provided, the LLM must complete the investigation without further inputed from the human side. The initial response produced by the model will therefore form the investigation output used for evaluation.
+For this project, an autonomous investigation means that once the evidence and investigation instructions have been provided, the LLM must complete the investigation without further inputed from the human side.g The initial response produced by the model will therefore form the investigation output used for evaluation.
 
 ## Prompt Testing
 
