@@ -17,12 +17,13 @@ Each ground truth will be created using the known actions within the attack scen
 
 Each ground truth will then be divided into individual findings covering:
 
-* Attack activity or technique
-* Process or command involved
-* Relevant timestamp or sequence
-* Important file, registry or network activity where applicable
-* Supporting Sysmon or Wazuh evidence
-* Relevant MITRE ATT&CK technique
+* Execution & timing
+* Command & behaviour
+* Process & user context
+* Confirmed outcome
+* Security evidence
+* ATT&CK & sequence
+
 
 ## Ground Truth Independence
 
