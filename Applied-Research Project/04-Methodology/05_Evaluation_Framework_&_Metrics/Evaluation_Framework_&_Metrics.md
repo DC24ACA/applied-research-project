@@ -6,11 +6,8 @@ Three main metrics will be used to measure the performance of each LLM: complete
 
 Completeness will measure how many of the expected ground-truth findings are identified by the LLM. Each ground-truth item will receive a score of 1 if identified or 0 if missed.
 
-Completeness (%) = (Findings identified ÷ Total ground-truth findings) × 100
+Completeness = (Findings identified ÷ Total ground-truth findings) × 100. Results in %.
 
-Eg; if an LLM identifies 8 out of 10 ground-truth findings:
-
-Completeness = 80%
 
 ## Accuracy
 
@@ -22,11 +19,8 @@ Accuracy will measure how correctly the LLM describes the findings that it ident
 
 Ground-truth findings that are completely missed will not be included in the accuracy calculation, as these are already measured through completeness.
 
-Accuracy (%) = (Total accuracy score ÷ Maximum possible score for identified findings) × 100
+Accuracy = (Total accuracy score ÷ Maximum possible score for identified findings) × 100. Rresults in %.
 
-Eg; if five identified findings receive scores of 1, 1, 1, 0.5, 0.5:
-
-Accuracy = 4 ÷ 5 × 100 = 80%
 
 ## Evidence Support
 
@@ -36,7 +30,7 @@ Evidence support will measure how well each identified finding is supported usin
 0.5 – Partially or generally supported
 0 – No valid supporting evidence provided
 
-Evidence Support (%) = (Total evidence support score ÷ Maximum possible score for identified findings) × 100
+Evidence Support = (Total evidence support score ÷ Maximum possible score for identified findings) × 100. Results in %.
 
 This will help distinguish between findings that are simply stated by the LLM and findings that can be traced back to the supplied security evidence.
 
