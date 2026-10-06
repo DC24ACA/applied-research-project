@@ -1,32 +1,12 @@
-#!/bin/bash
+A="2026-10-03T18:21:15.192"
+B="2026-10-03T18:31:15.192"
 
-# Test 2 - Wazuh and Sysmon Evidence Extraction
-# Documentation of the commands used to extract Sysmon and Wazuh evidence.
+zcat /var/ossec/logs/archives/2026/Oct/ossec-archive-03.json.gz | jq -c "select(.agent.name==\"Windows_VM\") | select(.timestamp >= \"$A\" and .timestamp <= \"$B\")" > /home/dcasey/Test_2_Archives.json
 
-# Atomic execution:
-# Start: 2026-10-03 18:26:14.757
-# End:   2026-10-03 18:26:16.940
-#
-# Evidence collection window:
-# 10 minutes before execution to 10 minutes after execution.
+zcat /var/ossec/logs/alerts/2026/Oct/ossec-alerts-03.json.gz | jq -c "select(.agent.name==\"Windows_VM\") | select(.timestamp >= \"$A\" and .timestamp <= \"$B\")" > /home/dcasey/Test_2_Alerts.json
 
-A="2026-10-03T18:16:14.757"
-B="2026-10-03T18:36:16.940"
+sudo chown dcasey:dcasey /home/dcasey/Test_2_Archives.json
+sudo chown dcasey:dcasey /home/dcasey/Test_2_Alerts.json
 
-# Extract Sysmon records
-cat /var/ossec/logs/archives/archives.json | jq -c "select(.timestamp >= \"$A\" and .timestamp <= \"$B\")" > /home/dcasey/Test_2_Archives.json
-
-# Extract Wazuh alerts
-cat /var/ossec/logs/alerts/alerts.json | jq -c "select(.timestamp >= \"$A\" and .timestamp <= \"$B\")" > /home/dcasey/Test_2_Alerts.json
-
-# Extracted files assigned to the dcasey user
-chown dcasey:dcasey /home/dcasey/Test_2_*.json
-
-# Set file permissions
-chmod 644 /home/dcasey/Test_2_*.json
-
-# Verify extracted files
-ls -lh /home/dcasey/Test_2_*.json
-
-# Display record counts
-wc -l /home/dcasey/Test_2_Archives.json /home/dcasey/Test_2_Alerts.json
+wc -l /home/dcasey/Test_2_Archives.json
+wc -l /home/dcasey/Test_2_Alerts.json
