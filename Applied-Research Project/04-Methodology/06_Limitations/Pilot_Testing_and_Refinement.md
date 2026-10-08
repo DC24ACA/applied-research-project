@@ -4,7 +4,7 @@ During the T1033 pilot, Gemini repeatedly returned incorrect final timestamps wh
 
 ![Gemini trying to access raw logs 20 minute extraction](Gemini_Failure_Original.png)
 
-Several attempts were made to address the issue, including removing redundant full-log entries, reducing metadata and simplifying the evidence into a smaller JSON file containing 406 Sysmon events.
+Several attempts were made to address the issue, including removing unncessary full-log entries and simplifying the evidence into a smaller JSON file containing 406 Sysmon events.
 
 The smallest file was approximately 382 KB. Gemini incorrectly identified the final timestamp as 12:45:13.893, corresponding to record 301 of 406. The actual final timestamp was 12:51:58.239.
 
