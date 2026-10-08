@@ -1,0 +1,15 @@
+index=main source="Scenario_1_Archives.json"
+| spath
+| search data.win.system.eventID="1"
+| rename data.win.eventdata.utcTime AS UTC
+         data.win.eventdata.parentImage AS Parent
+         data.win.eventdata.parentProcessId AS ParentPID
+         data.win.eventdata.image AS Child
+         data.win.eventdata.processId AS ChildPID
+         data.win.eventdata.user AS User
+         data.win.eventdata.integrityLevel AS Integrity
+         data.win.eventdata.terminalSessionId AS SessionID
+         data.win.eventdata.logonId AS LogonID
+         data.win.system.eventRecordID AS RecordID
+| table UTC Parent ParentPID Child ChildPID User Integrity SessionID LogonID RecordID
+| sort 0 UTC

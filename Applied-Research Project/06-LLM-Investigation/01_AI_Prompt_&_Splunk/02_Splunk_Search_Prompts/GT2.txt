@@ -1,0 +1,11 @@
+index=main source="Scenario_1_Archives.json"
+| spath
+| search data.win.system.eventID="1"
+| rename data.win.eventdata.utcTime AS UTC
+         data.win.eventdata.image AS Executable
+         data.win.eventdata.commandLine AS Command
+         data.win.eventdata.parentCommandLine AS ParentCommand
+         data.win.eventdata.parentImage AS Parent
+         data.win.system.eventRecordID AS RecordID
+| table UTC Executable Command Parent ParentCommand RecordID
+| sort 0 UTC
