@@ -1,12 +1,12 @@
-A="2026-10-02T16:50:26.665"
-B="2026-10-02T17:00:27.861"
+A="2026-10-23T15:32:26.090"
+B="2026-10-23T15:42:27.659"
 
-zcat /var/ossec/logs/archives/2026/Oct/ossec-archive-02.json.gz | jq -c "select(.agent.name==\"Windows_VM\") | select(.timestamp >= \"$A\" and .timestamp <= \"$B\")" > /home/dcasey/Test_1_Archives.json
+cat /var/ossec/logs/archives/archives.json | jq -c "select(.agent.name==\"Windows_VM\") | select(.timestamp >= \"$A\" and .timestamp <= \"$B\")" > /home/dcasey/Scenario_1_Archives.json
 
-zcat /var/ossec/logs/alerts/2026/Oct/ossec-alerts-02.json.gz | jq -c "select(.agent.name==\"Windows_VM\") | select(.timestamp >= \"$A\" and .timestamp <= \"$B\")" > /home/dcasey/Test_1_Alerts.json
+cat /var/ossec/logs/alerts/alerts.json | jq -c "select(.agent.name==\"Windows_VM\") | select(.timestamp >= \"$A\" and .timestamp <= \"$B\")" > /home/dcasey/Scenario_1_Alerts.json
 
-sudo chown dcasey:dcasey /home/dcasey/Test_1_Archives.json
-sudo chown dcasey:dcasey /home/dcasey/Test_1_Alerts.json
+sudo chown dcasey:dcasey /home/dcasey/Scenario_1_Archives.json
+sudo chown dcasey:dcasey /home/dcasey/Scenario_1_Alerts.json
 
-wc -l /home/dcasey/Test_1_Archives.json
-wc -l /home/dcasey/Test_1_Alerts.json
+wc -l /home/dcasey/Scenario_1_Archives.json
+wc -l /home/dcasey/Scenario_1_Alerts.json
