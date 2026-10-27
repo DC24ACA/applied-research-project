@@ -14,7 +14,7 @@
 
 * Conduct literature searches using IEEE Xplore and other academic databases. **DONE**
 * Read and summarise approximately 20–30 relevant papers. **DONE**
-* Create literature summaries and literature matrix.
+* Create literature summaries and literature matrix. **DONE**
 * Identify research gaps and limitations in existing work. **DONE**
 * Refine project title, aim, objectives and research questions. **DONE**
 * Draft methodology and evaluation approach. **DONE**
@@ -30,27 +30,26 @@
 * Build and configure the virtual lab. **DONE**
 * Install/configure Windows VM, Ubuntu, Wazuh and Sysmon. **DONE**
 * Configure required logging and security monitoring. **DONE**
-* Review and validate the Windows APT dataset.
 * Confirm that logs, alerts and Sysmon events can be analysed correctly. **DONE**
-* Finalise methodology and evaluation framework.
-* Finalise LLM prompt is detailed and provide enough evidence
-* Develop a ground truth for each attack scennario and a corresponding scoring framework. 
-* Test attack sceanrios that are not being used in this investigation to see if evidence, log, prompt is sufficient.
-* Document architecture, configuration and testing.
-* Update GitHub with practical progress.
+* Finalise methodology and evaluation framework. **DONE**
+* Finalise LLM prompt - ensure it is detailed and provides enough evidence **DONE**
+* Test attack sceanrios that are not being used in this investigation to see if evidence, log, prompt is sufficient. **DONE**
+* Document architecture, configuration and testing. **DONE**
+* Update GitHub with practical progress.**DONE**
 
 
 ## October – Scenarios, Ground Truth & Initial Testing
 
 * Select final attack scenarios from the Windows APT dataset.
-* Extract relevant Wazuh, Sysmon and Windows event evidence.
-* Document attack actions, event sequences and expected findings.
-* Establish independent ground truth for each scenario.
-* Map relevant activity to MITRE ATT&CK where appropriate.
-* Finalise standard LLM investigation instructions and report format.
-* Conduct initial autonomous LLM investigations.
-* Document problems, solutions and remaining work.
-* **Submit IPR + IDV – 16 October 2026.**
+* Extract relevant Wazuh, Sysmon and Windows event evidence. **DONE**
+* Document attack actions, event sequences and expected findings. **DONE**
+* Establish independent ground truth for each scenario. Ongoing
+* Map relevant activity to MITRE ATT&CK where appropriate. **DONE**
+* Finalise standard LLM investigation instructions and report format. **DONE**
+* Conduct initial autonomous LLM investigations. **DONE**
+* Document problems, solutions and remaining work. **DONE**
+* Review and validate the Windows APT dataset. Ongoing
+* **Submit IPR + IDV – 16 October 2026.** **DONE**
 
 
 ## November – Autonomous LLM Investigations
