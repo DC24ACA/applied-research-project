@@ -15,7 +15,7 @@ atomic_tests:
     script_path:
       description: Script path.
       type: path
-      default: PathToAtomicsFolder\..\ExternalPayloads\T1059.003_script.bat
+      default: PathToAtomicsFolder\..\ExternalPayloads\Scenario_1_script.bat
   dependency_executor_name: powershell
   dependencies:
   - description: |
