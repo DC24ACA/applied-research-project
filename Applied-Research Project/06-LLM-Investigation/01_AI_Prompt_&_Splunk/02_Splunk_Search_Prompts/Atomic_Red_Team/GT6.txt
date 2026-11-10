@@ -1,0 +1,12 @@
+index=main (source="Scenario_1_Archives.json" OR source="Scenario_1_Alerts.json")
+| spath
+| eval UTC='data.win.eventdata.utcTime'
+| eval EventID='data.win.system.eventID'
+| eval RecordID='data.win.system.eventRecordID'
+| eval Process='data.win.eventdata.image'
+| eval Command='data.win.eventdata.commandLine'
+| eval Parent='data.win.eventdata.parentImage'
+| eval RuleID='rule.id'
+| eval Technique=mvjoin('rule.mitre.id',", ")
+| table _time UTC EventID RecordID Process Command Parent RuleID Technique
+| sort 0 _time
