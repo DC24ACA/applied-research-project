@@ -16,7 +16,13 @@ To ensure a fair comparison, the attack scenario, evidence, prompt, investigatio
 
 Attack scenarios include controlled Atomic Red Team tests and more complex investigation windows selected from the publicly available Windows APT dataset.
 
-Scenarios are selected based on the availability of suitable security evidence, the ability to establish reliable ground truth, relevance to security incident investigation and differences in activity complexity.
+### Atomic Red Team Attack Selection
+
+Three Atomic Red Team scenarios were selected to represent different types of attacker behaviour within the MITRE ATT&CK framework: Windows Command Shell (T1059.003), Local Account Discovery (T1087.001) and Registry Run Keys/Startup Folder (T1547.001).
+
+These scenarios were selected to provide variation in the types of security activity investigated, covering execution, discovery and persistence. Each scenario requires the LLMs to interpret different aspects of the available Wazuh alerts and Sysmon telemetry, including process execution, account enumeration and potential persistence mechanisms.
+
+The Windows APT scenarios were selected to represent multi-technique investigations with varying levels of complexity. The log extraction took three main characteristics into consideration: the volume of security records, the number of distinct MITRE ATT&CK techniques and the proportion of potentially malicious, benign activity and undeterminable.
 
 Including scenarios of varying complexity allows the research to examine whether LLM performance changes when investigating more complex security activity.
 
