@@ -1,0 +1,11 @@
+index=Scenario_2_APT
+| rename "_source.data.win.system.systemTime" AS Time
+         "_source.data.win.system.eventRecordID" AS RecordID
+         "_source.data.win.eventdata.image" AS Process
+         "_source.data.win.eventdata.parentImage" AS Parent
+         "_source.data.win.eventdata.commandLine" AS Command
+| where like(lower(Command), "%malware_test%")
+    OR like(lower(Command), "%osk.exe%")
+    OR like(lower(Command), "%atbroker.exe%")
+| table Time RecordID Parent Process Command
+| sort 0 Time

@@ -1,0 +1,12 @@
+index=Scenario_2_APT
+| rename "_source.data.win.system.systemTime" AS Time
+         "_source.data.win.system.eventID" AS EventID
+         "_source.data.win.system.eventRecordID" AS RecordID
+         "_source.data.win.eventdata.image" AS Process
+         "_source.data.win.eventdata.commandLine" AS Command
+         "_source.data.win.eventdata.targetFilename" AS File
+| where like(lower(Command), "%art.bat%")
+    OR like(lower(Command), "%userinitmprlogonscript%")
+    OR like(lower(File), "%art.bat%")
+| table Time EventID RecordID Process Command File
+| sort 0 Time
