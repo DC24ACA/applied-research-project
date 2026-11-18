@@ -1,9 +1,5 @@
 index=Scenario_2_APT
-| rename "_source.data.win.system.systemTime" AS Time
-         "_source.data.win.system.eventRecordID" AS RecordID
-         "_source.data.win.eventdata.image" AS Process
-         "_source.data.win.eventdata.commandLine" AS Command
-| where (like(lower(Command), "%curl%") AND like(lower(Command), "%google.com%"))
-    OR (like(lower(Command), "%invoke-webrequest%") AND like(lower(Command), "%post%"))
-| table Time RecordID Process Command
-| sort 0 Time
+| rename _source.data.win.system.* AS *, _source.data.win.eventdata.* AS *, _source.rule.id AS rule, _source.rule.level AS rule_level, _source.rule.description AS rule_desc, _source.rule.mitre.id AS wazuh_mitre
+| search eventID=1 ((commandLine="*curl*" commandLine="*google.com*") OR (commandLine="*Invoke-WebRequest*" commandLine="*POST*"))
+| table systemTime eventRecordID processId parentProcessId parentImage image commandLine user integrityLevel
+| sort 0 systemTime
